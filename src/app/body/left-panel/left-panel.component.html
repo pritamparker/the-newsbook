@@ -1,0 +1,8 @@
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <h3 class="panel-title">News Source</h3>
+    </div>
+    <div routerLink="{{ news.id }}" routerLinkActive="active" style="cursor:pointer" class="panel-footer" *ngFor="let news of news_source">
+        {{ news.name }}
+    </div>
+</div>
