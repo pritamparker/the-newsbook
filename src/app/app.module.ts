@@ -13,6 +13,7 @@ import { AboutComponent } from './body/data-panel/about/about.component';
 import { DataPanelComponent } from './body/data-panel/data-panel.component';
 import { NewsDataComponent } from './body/data-panel/news-data/news-data.component';
 import { HomeDataComponent } from './body/data-panel/home-data/home-data.component';
+import { BuildComponent } from './body/data-panel/build/build.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HomeDataComponent } from './body/data-panel/home-data/home-data.compone
     AboutComponent,
     DataPanelComponent,
     NewsDataComponent,
-    HomeDataComponent
+    HomeDataComponent,
+    BuildComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+import { BuildComponent } from './body/data-panel/build/build.component';
 import { HomeDataComponent } from './body/data-panel/home-data/home-data.component';
 import { NewsDataComponent } from './body/data-panel/news-data/news-data.component';
 import { DataPanelComponent } from './body/data-panel/data-panel.component';
@@ -13,6 +14,7 @@ const appRoutes:Routes=[
     { path:'',component:HomeDataComponent}
   ]},
   { path:'about',component:AboutComponent},
+  { path:'build',component:BuildComponent},
   { path:':id',component:NewsDataComponent}
 ];
 @NgModule({
